@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <rect width="1200" height="650" rx="18" fill="#0b1220"/>
+  <rect x="36" y="36" width="1128" height="578" rx="14" fill="#111827" stroke="#334155"/>
+  <text x="70" y="92" fill="#e5e7eb" font-family="Consolas, monospace" font-size="34" font-weight="700">PATCH /api/tareas/1/estado?estado=EN_PROGRESO</text>
+  <rect x="70" y="120" width="190" height="42" rx="8" fill="#2563eb"/>
+  <text x="96" y="149" fill="#ffffff" font-family="Consolas, monospace" font-size="22" font-weight="700">200 OK</text>
+  <text x="70" y="210" fill="#cbd5e1" font-family="Consolas, monospace" font-size="22">Cambio de estado aplicado correctamente</text>
+  <rect x="70" y="250" width="1060" height="260" rx="12" fill="#0b1220" stroke="#1f2937"/>
+  <text x="100" y="315" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">{</text>
+  <text x="130" y="355" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">"id": 1,</text>
+  <text x="130" y="395" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">"estado": "EN_PROGRESO"</text>
+  <text x="100" y="435" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">}</text>
+  <text x="70" y="560" fill="#64748b" font-family="Consolas, monospace" font-size="18">Evidencia visual de actualización</text>
+</svg>
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <rect width="1200" height="650" rx="18" fill="#101828"/>
+  <rect x="36" y="36" width="1128" height="578" rx="14" fill="#111827" stroke="#334155"/>
+  <text x="70" y="92" fill="#e5e7eb" font-family="Consolas, monospace" font-size="34" font-weight="700">GET /api/tareas</text>
+  <rect x="70" y="120" width="170" height="42" rx="8" fill="#16a34a"/>
+  <text x="96" y="149" fill="#ffffff" font-family="Consolas, monospace" font-size="22" font-weight="700">200 OK</text>
+  <text x="70" y="210" fill="#cbd5e1" font-family="Consolas, monospace" font-size="24">[ ] lista vacía al inicio</text>
+  <text x="70" y="270" fill="#94a3b8" font-family="Consolas, monospace" font-size="22">Response Body:</text>
+  <rect x="70" y="300" width="1060" height="210" rx="12" fill="#0b1220" stroke="#1f2937"/>
+  <text x="100" y="350" fill="#d1fae5" font-family="Consolas, monospace" font-size="24">[]</text>
+  <text x="70" y="560" fill="#64748b" font-family="Consolas, monospace" font-size="18">Evidencia visual de verificación inicial</text>
+</svg>
+

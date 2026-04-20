@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <rect width="1200" height="650" rx="18" fill="#111827"/>
+  <rect x="36" y="36" width="1128" height="578" rx="14" fill="#111827" stroke="#334155"/>
+  <text x="70" y="92" fill="#e5e7eb" font-family="Consolas, monospace" font-size="34" font-weight="700">GET /api/tareas/1</text>
+  <rect x="70" y="120" width="280" height="42" rx="8" fill="#dc2626"/>
+  <text x="96" y="149" fill="#ffffff" font-family="Consolas, monospace" font-size="22" font-weight="700">404 Not Found</text>
+  <text x="70" y="210" fill="#cbd5e1" font-family="Consolas, monospace" font-size="22">Consulta después del DELETE</text>
+  <rect x="70" y="250" width="1060" height="260" rx="12" fill="#0b1220" stroke="#7f1d1d"/>
+  <text x="100" y="310" fill="#fecaca" font-family="Consolas, monospace" font-size="24">{</text>
+  <text x="130" y="350" fill="#fecaca" font-family="Consolas, monospace" font-size="22">"error": "Tarea 1 no encontrada!"</text>
+  <text x="100" y="390" fill="#fecaca" font-family="Consolas, monospace" font-size="24">}</text>
+  <text x="70" y="560" fill="#64748b" font-family="Consolas, monospace" font-size="18">Evidencia visual posterior al borrado</text>
+</svg>
+

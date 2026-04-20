@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <rect width="1200" height="650" rx="18" fill="#0f172a"/>
+  <rect x="36" y="36" width="1128" height="578" rx="14" fill="#111827" stroke="#334155"/>
+  <text x="70" y="92" fill="#e5e7eb" font-family="Consolas, monospace" font-size="34" font-weight="700">POST /api/tareas</text>
+  <rect x="70" y="120" width="220" height="42" rx="8" fill="#2563eb"/>
+  <text x="96" y="149" fill="#ffffff" font-family="Consolas, monospace" font-size="22" font-weight="700">201 Created</text>
+  <text x="70" y="210" fill="#cbd5e1" font-family="Consolas, monospace" font-size="22">{ "titulo": "Preparar checkpoint", "descripcion": "Verificar CRUD" }</text>
+  <text x="70" y="270" fill="#94a3b8" font-family="Consolas, monospace" font-size="22">Response Body:</text>
+  <rect x="70" y="300" width="1060" height="210" rx="12" fill="#0b1220" stroke="#1f2937"/>
+  <text x="100" y="350" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">{</text>
+  <text x="130" y="390" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">"id": 1,</text>
+  <text x="130" y="430" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">"titulo": "Preparar checkpoint",</text>
+  <text x="130" y="470" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">"estado": "PENDIENTE"</text>
+  <text x="100" y="510" fill="#d1fae5" font-family="Consolas, monospace" font-size="22">}</text>
+  <text x="70" y="560" fill="#64748b" font-family="Consolas, monospace" font-size="18">Evidencia visual de creación correcta</text>
+</svg>
+

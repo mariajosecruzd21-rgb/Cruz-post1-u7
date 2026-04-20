@@ -1,0 +1,48 @@
+@host = http://localhost:8080
+@baseUrl = {{host}}/api/tareas
+@missingId = 999999
+
+### 1) GET /api/tareas -> debe devolver lista vacía (200 OK) al inicio
+GET {{baseUrl}}
+Accept: application/json
+
+### 2) POST /api/tareas con JSON válido -> debe devolver 201 Created y guardar el id
+POST {{baseUrl}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "titulo": "Preparar checkpoint",
+  "descripcion": "Verificar CRUD, validación y manejo de errores"
+}
+
+> {%
+client.global.set("tareaId", response.body.id);
+%}
+
+### 3) POST /api/tareas sin título -> debe devolver 400 Bad Request con mensaje de validación
+POST {{baseUrl}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "descripcion": "Esta petición no tiene título"
+}
+
+### 4) GET /api/tareas/{id} con ID inexistente -> debe devolver 404 Not Found
+GET {{baseUrl}}/{{missingId}}
+Accept: application/json
+
+### 5) PATCH /api/tareas/{id}/estado -> debe actualizar el estado correctamente
+PATCH {{baseUrl}}/{{tareaId}}/estado?estado=EN_PROGRESO
+Accept: application/json
+
+### 6) DELETE /api/tareas/{id} -> debe devolver 204 No Content
+DELETE {{baseUrl}}/{{tareaId}}
+
+### 7) GET /api/tareas/{id} luego del DELETE -> debe devolver 404 Not Found
+GET {{baseUrl}}/{{tareaId}}
+Accept: application/json
+
+
+
